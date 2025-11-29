@@ -31,6 +31,7 @@ import com.android.settings.accessibility.ForceInvertPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
+import com.android.settings.display.BlackThemePreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,13 +80,14 @@ public class DarkModeSettingsFragment extends BaseSupportFragment {
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        List<AbstractPreferenceController> controllers =  new ArrayList(2);
+        List<AbstractPreferenceController> controllers =  new ArrayList(3);
         mCustomStartController = new DarkModeCustomPreferenceController(getContext(),
                 DARK_THEME_START_TIME, this);
         mCustomEndController = new DarkModeCustomPreferenceController(getContext(),
                 DARK_THEME_END_TIME, this);
         controllers.add(mCustomStartController);
         controllers.add(mCustomEndController);
+        controllers.add(new BlackThemePreferenceController(context, "black_theme"));
         return controllers;
     }
 

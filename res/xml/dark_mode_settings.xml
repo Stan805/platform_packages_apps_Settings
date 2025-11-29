@@ -48,11 +48,19 @@
             android:key="expanded_dark_theme"
             android:summary="@string/accessibility_expanded_dark_theme_summary"
             settings:searchable="true"/>
+        
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="display_category"
         android:title="@string/accessibility_screen_option">
+
+        <SwitchPreferenceCompat
+        android:key="black_theme"
+        android:title="@string/android_overlay_black"
+        android:summary="@string/black_theme_summary"
+        settings:controller="com.android.settings.display.BlackThemePreferenceController" />
+
         <DropDownPreference
             android:key="dark_ui_auto_mode"
             android:title="@string/dark_ui_auto_mode_title"

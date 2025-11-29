@@ -3388,6 +3388,8 @@
     <string name="dark_ui_modes_footer_action">Modes settings</string>
     <!-- HDR brightness screen, summary of the feature. [CHAR LIMIT=NONE] -->
     <string name="hdr_brigtness_text">Brighten and expand the color range and clarity in High Dynamic Range (HDR) images and videos. HDR content will appear brighter.</string>
+    <string name="android_overlay_black">Pure Black</string>
+    <string name="black_theme_summary">Use pitch black background for dark mode</string>
 
 
     <!-- Sound & display settings screen, setting option name to change screen timeout -->
