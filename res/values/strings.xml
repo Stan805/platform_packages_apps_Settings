@@ -361,6 +361,17 @@
 
     <!-- Date & time settings screen title -->
     <string name="date_and_time">Date &amp; time</string>
+    <string name="clock_seconds_title">Clock seconds</string>
+    <string name="clock_seconds_summary_battery_saver">Limited by Battery Saver</string>
+    <string name="clock_seconds_master_switch_title">Use clock seconds</string>
+    <string name="clock_seconds_intro_text">Choose where seconds are displayed</string>
+    <string name="clock_seconds_category_header">Display Mode</string>
+    <string name="clock_seconds_qs_title">Quick Settings only</string>
+    <string name="clock_seconds_qs_summary">Seconds only appear in Quick Settings</string>
+    <string name="clock_seconds_always_title">Always show</string>
+    <string name="clock_seconds_always_summary">Seconds always appear in status bar</string>
+    <string name="clock_seconds_summary_default">Show seconds on status bar clock</string>
+    <string name="clock_seconds_always_summary_battery_saver">Disabled by Battery Saver</string>
 
     <!-- HTTP proxy settings title -->
     <string name="proxy_settings_title">Proxy</string>

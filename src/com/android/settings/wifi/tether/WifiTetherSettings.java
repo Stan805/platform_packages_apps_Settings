@@ -358,7 +358,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         use(WifiTetherSecurityPreferenceController.class).updateDisplay();
         use(WifiTetherPasswordPreferenceController.class).updateDisplay();
         use(WifiTetherMaximizeCompatibilityPreferenceController.class).updateDisplay();
-        use(WifiTetherAutoOffPreferenceController.class).updateDisplay();
+        use(WifiTetherAutoOffPreferenceController.class) .updateState(findPreference("wifi_tether_auto_turn_off"));
         use(WifiTetherHiddenSsidPreferenceController.class).updateDisplay();
     }
 

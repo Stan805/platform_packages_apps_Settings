@@ -1,0 +1,30 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/clock_seconds_title">
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="clock_seconds_main_switch"
+        android:title="@string/clock_seconds_master_switch_title"
+        settings:controller="com.android.settings.datetime.ClockSecondsSwitchController"/>
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/clock_seconds_intro_text" />
+
+    <PreferenceCategory
+        android:key="clock_seconds_radio_group"
+        android:title="@string/clock_seconds_category_header">
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="clock_seconds_always_option"
+            android:title="@string/clock_seconds_always_title"
+            android:summary="@string/clock_seconds_always_summary"
+            android:order="10" />
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="clock_seconds_qs_option"
+            android:title="@string/clock_seconds_qs_title"
+            android:summary="@string/clock_seconds_qs_summary"
+            android:order="20" />
+    </PreferenceCategory>
+</PreferenceScreen>

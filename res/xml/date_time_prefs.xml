@@ -99,6 +99,12 @@
             android:key="24 hour"
             android:title="@string/date_time_24hour"
             settings:controller="com.android.settings.datetime.TimeFormatPreferenceController" />
+        
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="clock_seconds_button"
+            android:title="@string/clock_seconds_title"
+            android:fragment="com.android.settings.datetime.ClockSecondsSettings"
+            settings:controller="com.android.settings.datetime.ClockSecondsParentPreferenceController"/>
     </PreferenceCategory>
 
     <!-- An optional preference category for feedback. Only displayed up if enabled via flags and config. Always put time feedback at the end. -->
