@@ -91,6 +91,15 @@
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
+    <Preference
+        android:key="status_bar_settings_screen"
+        android:title="@string/status_bar_settings_title"
+        android:fragment="com.android.settings.statusbar.StatusBarSettings"
+        android:icon="@drawable/ic_status_bar"
+        android:order="-250"
+        android:summary="@string/status_bar_settings_summary"
+        settings:controller="com.android.settings.statusbar.StatusBarSettingsController" />
+
     <!-- System updates -->
     <Preference
         android:key="additional_system_update_settings"

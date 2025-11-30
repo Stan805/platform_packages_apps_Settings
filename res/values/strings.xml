@@ -14719,4 +14719,29 @@ Data usage charges may apply.</string>
         <item>.inversePrimary:@sud_system_primary_inverse_light</item>
     </string-array>
 
+    <string name="status_bar_settings_title">Status bar</string>
+    <string name="status_bar_icons_category_title">Status bar icons</string>
+
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_summary">Show network speed indicator in status bar</string>
+    
+    <string name="network_traffic_enabled_title">Enable network traffic monitor</string>
+    <string name="network_traffic_enabled_summary">Show network speed indicator in status bar</string>
+    
+    <string name="network_traffic_mode_title">Display mode</string>
+    
+    <string name="network_traffic_autohide_title">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide when there is no network activity</string>
+    
+    <string name="network_traffic_units_title">Display units</string>
+    
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_summary">Time between updates</string>
+    
+    <string name="network_traffic_hidearrow_title">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the directional arrows</string>
+
+    <string name="status_bar_settings_summary">Network traffic, icons</string>
+    <string name="network_traffic_summary_battery_saver">Disabled by Battery Saver</string>
+
 </resources>
